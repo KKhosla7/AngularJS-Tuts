@@ -4,22 +4,22 @@
 
 var myApp = angular.module("myApp", ["ngAnimate"]);
 
-myApp.controller("AppCtrl", function() {
-    this.toggle = true;
-})
-
 myApp.factory('Data', function() {
     return {message: ""}
 })
 
-function defaultMessageCtrl($scope, Data) {
+function ValueUpdateCtrl($scope, Data) {
+    $scope.data = Data;
+
+}
+
+function MessageCtrl($scope, Data) {
     $scope.data = Data;
     $scope.reversedMessage = function(message) {
         return message.split("").reverse().join("");
     }
 }
 
-function UpdateCtrl($scope, Data) {
-    $scope.data = Data;
-
-}
+myApp.controller("AppCtrl", function () {
+    this.toggle = true;
+})

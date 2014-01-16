@@ -11,10 +11,13 @@
 <div class="panel-body" ng-app="myApp">
     <div class="text-center">
         <button class="btn-lg center-block" ng-click="app.toggle=!app.toggle">First Toggle Animation</button><br>
-        Your Text Here: <input type="text" ng-model="data.message" ng-controller="UpdateCtrl" placeholder="Enter message" />
+        Your Text Here: <input type="text" ng-model="data.message" ng-controller="ValueUpdateCtrl"
+                               placeholder="Enter message"/>
+
         <div class="toggle" ng-if="!app.toggle" ng-controller="AppCtrl as myApp"><br>
-            <div ng-controller="defaultMessageCtrl">
-                <p class="text-info lead">What You Type: {{ data.message }} <br> See Reversed : {{ reversedMessage(data.message)}} </p>
+
+            <div ng-controller="MessageCtrl">
+            <p class="text-info lead">What You Type: {{ data.message }} <br> See Reversed : {{ reversedMessage(data.message)}} </p>
             </div>
         </div>
     </div>
