@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LearnAngular.iml" filepath="$PROJECT_DIR$/LearnAngular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sites/Sites.iml" filepath="$PROJECT_DIR$/Sites/Sites.iml" />
+    </modules>
+  </component>
+</project>
+

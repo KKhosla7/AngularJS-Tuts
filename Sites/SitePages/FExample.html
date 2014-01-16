@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My First Angular JS Example</title>
+    <link rel="stylesheet" href="../resources/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../resources/vendor/bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../resources/app/css/style.css">
+</head>
+<body>
+<div class="panel-body" ng-app="myApp">
+    <div class="text-center">
+        <button class="btn-lg center-block" ng-click="app.toggle=!app.toggle">First Toggle Animation</button><br>
+        Your Text Here: <input type="text" ng-model="data.message" ng-controller="UpdateCtrl" placeholder="Enter message" />
+        <div class="toggle" ng-if="!app.toggle" ng-controller="AppCtrl as myApp"><br>
+            <div ng-controller="defaultMessageCtrl">
+                <p class="text-info lead">What You Type: {{ data.message }} <br> See Reversed : {{ reversedMessage(data.message)}} </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../resources/angular/script/angular.js"></script>
+<script type="text/javascript" src="../resources/angular/script/angular-animate.js"></script>
+<script type="text/javascript" src="../resources/app/script/app.js"></script>
+</body>
+</html>
