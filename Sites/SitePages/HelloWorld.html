@@ -17,7 +17,8 @@
         <div class="toggle" ng-if="!app.toggle" ng-controller="AppCtrl as myApp"><br>
 
             <div ng-controller="MessageCtrl">
-            <p class="text-info lead">What You Type: {{ data.message }} <br> See Reversed : {{ reversedMessage(data.message)}} </p>
+                <p class="text-info lead">What You Type: {{ data.message }} <br> See Reversed : {{ data.message |
+                    reverse }} </p>
             </div>
         </div>
     </div>
