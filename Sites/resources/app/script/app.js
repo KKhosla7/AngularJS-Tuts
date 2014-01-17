@@ -2,9 +2,32 @@
  * Created by karan.khosla on 1/16/14.
  */
 
-var myApp = angular.module("myApp", ["ngAnimate"]);
+/* Appication Loading Context */
 
-myApp.factory('Data', function() {
+angular.module("HelloWorldApp", [])
+var myDirectivesApp = angular.module("DirectivesApp", [])
+var mySimpleAnimationApp = angular.module("SimpleAnimationApp", ["ngAnimate"]);
+
+/* Application Loading Context Ends Here */
+
+myDirectivesApp.directive('pythonicway', function () {
+    return  {
+        /*  restrict: can have below values
+         ‘A’ – Attribute (You want to use your directive as <div rating>)
+         ‘E’ – Element (Use it as <rating>)
+         ‘C’ – Class. (Use it like <div class=”rating”>)
+         ‘M’ – Comment (Use it like <!– directive: rating
+         */
+        restrict: 'A, E',
+        template: "<div class='text-info lead'><a target='_blank' href='http://pythonicway.blogspot.in'>Pythonic Way</a></div>",
+        link: function () {
+            alert("Pythonic Way All the way. YaY!!");
+        }
+
+    }
+})
+
+mySimpleAnimationApp.factory('Data', function () {
     return {message: ""}
 })
 
@@ -20,12 +43,12 @@ function MessageCtrl($scope, Data) {
     }
 }
 
-myApp.filter('reverse', function () { // My first Filter to reverse the incoming text.
+mySimpleAnimationApp.filter('reverse', function () { // My first Filter to reverse the incoming text.
     return function (text) {
         return text.split("").reverse().join("");
     }
 })
 
-myApp.controller("AppCtrl", function () { // Control the toggling behavior.
+mySimpleAnimationApp.controller("AppCtrl", function () { // Control the toggling behavior.
     this.toggle = true;
 })

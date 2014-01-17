@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65cf419e-1423-4685-b9ab-1fdd53fa888b" name="Default" comment="Some Changes">
+    <list default="true" id="65cf419e-1423-4685-b9ab-1fdd53fa888b" name="Default" comment="More Changes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sites/SitePages/Directives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sites/SitePages/DirectivesBehaviors.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Sites/SitePages/HelloWorld.html" afterPath="$PROJECT_DIR$/Sites/SitePages/Animation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sites/SitePages/HelloWorld.html" afterPath="$PROJECT_DIR$/Sites/SitePages/HelloWorld.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sites/resources/app/script/app.js" afterPath="$PROJECT_DIR$/Sites/resources/app/script/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -68,10 +71,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Animation.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sites/SitePages/Animation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="10" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sites/SitePages/HelloWorld.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="7" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.6139477" vertical-offset="0" max-vertical-offset="803">
+            <state line="4" column="82" selection-start="88" selection-end="171" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Directives.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sites/SitePages/Directives.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="7" selection-start="465" selection-end="465" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectivesBehaviors.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sites/SitePages/DirectivesBehaviors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="7" selection-start="468" selection-end="468" vertical-scroll-proportion="0.49774775" vertical-offset="0" max-vertical-offset="444">
               <folding />
             </state>
           </provider>
@@ -98,7 +128,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sites/resources/app/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476">
+            <state line="16" column="18" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -107,8 +137,10 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sites/resources/app/script/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding />
+            <state line="21" column="53" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +165,13 @@
         <option value="$PROJECT_DIR$/Sites/AngularJS/SitePages/FExample.html" />
         <option value="$PROJECT_DIR$/Sites/SitePages/FExample.html" />
         <option value="$PROJECT_DIR$/Sites/resources/app/css/style.css" />
-        <option value="$PROJECT_DIR$/Sites/resources/app/script/app.js" />
+        <option value="$PROJECT_DIR$/Sites/SitePages/Hello.html" />
+        <option value="$PROJECT_DIR$/Sites/SitePages/Animation.html" />
         <option value="$PROJECT_DIR$/Sites/SitePages/HelloWorld.html" />
+        <option value="$PROJECT_DIR$/Sites/SitePages/SimpleDirective.html" />
+        <option value="$PROJECT_DIR$/Sites/SitePages/DirectivesBehaviors.html" />
+        <option value="$PROJECT_DIR$/Sites/resources/app/script/app.js" />
+        <option value="$PROJECT_DIR$/Sites/SitePages/Directives.html" />
       </list>
     </option>
   </component>
@@ -341,6 +378,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karan.khosla\IdeaProjects\LearnAngular\Sites\SitePages" />
       <recent name="C:\Users\karan.khosla\IdeaProjects\LearnAngular\Sites\resources\vendor\bootstrap\css" />
       <recent name="C:\Users\karan.khosla\IdeaProjects\LearnAngular\Sites\AngularJS\resources\bootstrap\css" />
       <recent name="C:\Users\karan.khosla\IdeaProjects\LearnAngular\Sites\AngularJS" />
@@ -353,8 +391,28 @@
       <recent name="C:\Users\karan.khosla\IdeaProjects\LearnAngular\Sites\resources\app" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.FExample.html">
-    <configuration default="false" name="FExample.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/LearnAngular/SitePages/HelloWorld.html">
+  <component name="RunManager" selected="JavaScript Debug.Directives.html">
+    <configuration default="false" name="HelloWorld.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/LearnAngular/SitePages/HelloWorld.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Hello.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/LearnAngular/SitePages/Hello.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Animation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/LearnAngular/SitePages/Animation.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleDirective.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/LearnAngular/SitePages/SimpleDirective.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Directives.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/LearnAngular/SitePages/Directives.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -570,12 +628,20 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FExample.html" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.HelloWorld.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Hello.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Animation.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.SimpleDirective.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Directives.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FExample.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Directives.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.SimpleDirective.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.HelloWorld.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Animation.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Hello.html" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -608,7 +674,8 @@
       <updated>1389851845718</updated>
       <workItem from="1389851852780" duration="13520000" />
       <workItem from="1389866156198" duration="7254000" />
-      <workItem from="1389876369339" duration="688000" />
+      <workItem from="1389876369339" duration="792000" />
+      <workItem from="1389934560894" duration="2909000" />
     </task>
     <task id="LOCAL-00001" summary="Some Changes">
       <created>1389871031358</created>
@@ -618,11 +685,15 @@
       <created>1389871612193</created>
       <updated>1389871612193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More Changes">
+      <created>1389877085185</created>
+      <updated>1389877085185</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21462000" />
+    <option name="totallyTimeSpent" value="24475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -635,7 +706,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.406682" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40574712" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -658,10 +729,10 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -679,8 +750,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -697,7 +768,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Some Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some Changes" />
+    <MESSAGE value="More Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Changes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -712,7 +784,44 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sites/SitePages/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Animation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="7" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/meta.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="23" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="6290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sites/resources/app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sites/resources/app/script/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="612">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Animation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="20" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="595">
           <folding />
@@ -743,11 +852,13 @@
     <entry file="file://$PROJECT_DIR$/Sites/resources/app/script/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="9" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="612">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sites/SitePages/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Animation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="7" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
           <folding />
@@ -801,16 +912,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sites/resources/app/script/app.js">
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/HelloWorld.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="4" column="82" selection-start="88" selection-end="171" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sites/SitePages/HelloWorld.html">
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.6139477" vertical-offset="0" max-vertical-offset="803">
+        <state line="23" column="10" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sites/resources/app/script/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="53" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Directives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="465" selection-end="465" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/DirectivesBehaviors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="468" selection-end="468" vertical-scroll-proportion="0.49774775" vertical-offset="0" max-vertical-offset="444">
           <folding />
         </state>
       </provider>
