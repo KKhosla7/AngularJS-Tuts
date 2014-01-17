@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65cf419e-1423-4685-b9ab-1fdd53fa888b" name="Default" comment="Now Adding More Examples for AngularJS Learning.&#10;&#10;Now It contains:-&#10;1. HelloWold AngularJS App&#10;2. Simple Animation AngularJS App (It contains how to create filters as well)&#10;3. How to write Directives AngularJS App&#10;4. Directives and Behavior AngularJS App.&#10;&#10;Some modifications in progress will update it soon.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sites/SitePages/DirectivesBehaviorsAttributes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sites/SitePages/Filters.html" />
-      <change type="DELETED" beforePath="C:\Users\karan.khosla\IdeaProjects\LearnAngular\Sites\SitePages\DirectivesBehaviors.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\karan.khosla\IdeaProjects\LearnAngular\Sites\resources\app\script\app.js" afterPath="$PROJECT_DIR$/Sites/resources/app/script/application-main.js" />
+    <list default="true" id="65cf419e-1423-4685-b9ab-1fdd53fa888b" name="Default" comment="Modifications + Additions&#10;&#10;Directives AngularJS Example now includes dealing with Attributes&#10;Example on filters&#10;Some modifications in application style.css file regarding animation behavior.&#10;&#10; Some application-main.js changes for modifications of existing functionality and introducing new functionality.&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sites/SitePages/Animation.html" afterPath="$PROJECT_DIR$/Sites/SitePages/Animation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sites/SitePages/Directives.html" afterPath="$PROJECT_DIR$/Sites/SitePages/Directives.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sites/SitePages/HelloWorld.html" afterPath="$PROJECT_DIR$/Sites/SitePages/HelloWorld.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sites/resources/app/css/style.css" afterPath="$PROJECT_DIR$/Sites/resources/app/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnAngular.iws" />
@@ -77,7 +70,7 @@
       <file leaf-file-name="Animation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sites/SitePages/Animation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="48" selection-start="783" selection-end="783" vertical-scroll-proportion="-9.807693" vertical-offset="17" max-vertical-offset="612">
+            <state line="4" column="11" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -110,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Filters.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Filters.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sites/SitePages/Filters.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="293" selection-end="294" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="357">
+            <state line="6" column="6" selection-start="133" selection-end="133" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -137,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sites/resources/app/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="204" selection-end="204" vertical-scroll-proportion="0.36324787" vertical-offset="0" max-vertical-offset="476">
+            <state line="8" column="18" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -180,13 +173,13 @@
         <option value="$PROJECT_DIR$/Sites/SitePages/SimpleDirective.html" />
         <option value="$PROJECT_DIR$/Sites/resources/app/script/app.js" />
         <option value="$PROJECT_DIR$/Sites/SitePages/Directives.html" />
-        <option value="$PROJECT_DIR$/Sites/SitePages/Animation.html" />
         <option value="$PROJECT_DIR$/Sites/SitePages/DirectivesBehaviors.html" />
         <option value="$PROJECT_DIR$/Sites/SitePages/DirectivesBehaviorsAttributes.html" />
         <option value="$PROJECT_DIR$/Sites/SitePages/Filters.html" />
         <option value="$PROJECT_DIR$/Sites/SitePages/HelloWorld.html" />
         <option value="$PROJECT_DIR$/Sites/resources/app/script/application-main.js" />
         <option value="$PROJECT_DIR$/Sites/resources/app/css/style.css" />
+        <option value="$PROJECT_DIR$/Sites/SitePages/Animation.html" />
       </list>
     </option>
   </component>
@@ -690,7 +683,7 @@
       <workItem from="1389851852780" duration="13520000" />
       <workItem from="1389866156198" duration="7254000" />
       <workItem from="1389876369339" duration="792000" />
-      <workItem from="1389934560894" duration="4820000" />
+      <workItem from="1389934560894" duration="5470000" />
     </task>
     <task id="LOCAL-00001" summary="Some Changes">
       <created>1389871031358</created>
@@ -708,11 +701,15 @@
       <created>1389937715260</created>
       <updated>1389937715260</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Modifications + Additions&#10;&#10;Directives AngularJS Example now includes dealing with Attributes&#10;Example on filters&#10;Some modifications in application style.css file regarding animation behavior.&#10; &#10; Some application-main.js changes for modifications of existing functionality and introducing new functionality.&#10;">
+      <created>1389939634658</created>
+      <updated>1389939634658</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26386000" />
+    <option name="totallyTimeSpent" value="27036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -783,14 +780,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Some Changes" />
     <MESSAGE value="More Changes" />
     <MESSAGE value="Now Adding More Examples for AngularJS Learning.&#10;&#10;Now It contains:-&#10;1. HelloWold AngularJS App&#10;2. Simple Animation AngularJS App (It contains how to create filters as well)&#10;3. How to write Directives AngularJS App&#10;4. Directives and Behavior AngularJS App.&#10;&#10;Some modifications in progress will update it soon.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now Adding More Examples for AngularJS Learning.&#10;&#10;Now It contains:-&#10;1. HelloWold AngularJS App&#10;2. Simple Animation AngularJS App (It contains how to create filters as well)&#10;3. How to write Directives AngularJS App&#10;4. Directives and Behavior AngularJS App.&#10;&#10;Some modifications in progress will update it soon.&#10;" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Modifications + Additions&#10;&#10;Directives AngularJS Example now includes dealing with Attributes&#10;Example on filters&#10;Some modifications in application style.css file regarding animation behavior.&#10; &#10; Some application-main.js changes for modifications of existing functionality and introducing new functionality.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications + Additions&#10;&#10;Directives AngularJS Example now includes dealing with Attributes&#10;Example on filters&#10;Some modifications in application style.css file regarding animation behavior.&#10; &#10; Some application-main.js changes for modifications of existing functionality and introducing new functionality.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -925,9 +923,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Directives.html">
+    <entry file="file://$PROJECT_DIR$/Sites/resources/app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="351" selection-end="351" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
+        <state line="8" column="18" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
@@ -939,23 +937,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Filters.html">
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Directives.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="293" selection-end="294" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sites/SitePages/HelloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="385" selection-end="385" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
+        <state line="11" column="11" selection-start="351" selection-end="351" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sites/SitePages/Animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="783" selection-end="783" vertical-scroll-proportion="-9.807693" vertical-offset="17" max-vertical-offset="612">
+        <state line="4" column="11" selection-start="78" selection-end="78" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
@@ -969,9 +960,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sites/resources/app/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/HelloWorld.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="204" selection-end="204" vertical-scroll-proportion="0.36324787" vertical-offset="0" max-vertical-offset="476">
+        <state line="11" column="35" selection-start="385" selection-end="385" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sites/SitePages/Filters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="133" selection-end="133" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
