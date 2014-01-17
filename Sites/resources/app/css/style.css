@@ -1,9 +1,9 @@
 .toggle {
-    -webkit-transition: linear 0.15s;
-    -moz-transition: linear 0.15s;
-    -ms-transition: linear 0.15s;
-    -o-transition: linear 0.15s;
-    transition: linear 0.15s;
+    -webkit-transition: linear 1s;
+    -moz-transition: linear 1s;
+    -ms-transition: linear 1s;
+    -o-transition: linear 1s;
+    transition: linear 1s;
 }
 
 .toggle.ng-enter {

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <title>Hello World Example - AngularJS Tuts</title>
-    <link rel="stylesheet" href="../resources/vendor/bootstrap/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <title>Filters Example - AngularJS Tuts</title>
 </head>
 <body>
-<div class="lead text-primary" ng-app>
-    {{ "Hello World" }}
-</div>
+    <div ng-app="FiltersApp">
+        {{ "Hello World" | uppercase }} <br>
+        {{ "Hello World" | reverse }}
+    </div>
+
 <script type="text/javascript" src="../resources/angular/script/angular.js"></script>
 <script type="text/javascript" src="../resources/app/script/application-main.js"></script>
 </body>

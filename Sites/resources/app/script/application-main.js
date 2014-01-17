@@ -4,11 +4,18 @@
 
 /* Appication Loading Context */
 
-angular.module("HelloWorldApp", [])
 var myDirectivesApp = angular.module("DirectivesApp", [])
+var myDirectivesBehaviorsAttributesApp = angular.module("DirectivesBehaviorsAttributesApp", [])
 var mySimpleAnimationApp = angular.module("SimpleAnimationApp", ["ngAnimate"]);
 
+angular.module("FiltersApp", []).filter('reverse', function () { // My first Filter to reverse the incoming text.
+    return function (text) {
+        return text.split("").reverse().join("");
+    }
+})
+
 /* Application Loading Context Ends Here */
+
 
 myDirectivesApp.directive('pythonicway', function () {
     return  {
@@ -24,6 +31,19 @@ myDirectivesApp.directive('pythonicway', function () {
             alert("Pythonic Way All the way. YaY!!");
         }
 
+    }
+})
+
+myDirectivesBehaviorsAttributesApp.directive('pythonicway', function () {
+    return function(scope, element, attrs)  {
+        element.bind("mouseenter", function() {
+            element.addClass(attrs.pythonicway);
+            console.log("I'm bout to click you.");
+        })
+        element.bind("mouseleave", function() {
+            element.removeClass(attrs.pythonicway);
+            console.log("I'll visit again.");
+        })
     }
 })
 
