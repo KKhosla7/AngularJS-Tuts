@@ -15,15 +15,15 @@ AngularJS at the moment is not supported on IntelliJ Idea Community Edition.
 File
  |
 Settings (Ctrl + Alt + S)
-|
+ |
 Search for (Plugins)
-|
+ |
 Install JetBrains Plugins or Browse Repositories
-|
+ |
 Search for these Plugins ( 'AngularJS', 'LiveEdit', 'AceJump (Emacs Inspired for faster navigation.)' )
-|
+ |
 Right-Click Download & Install
-|
+ |
 Restart.
 
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65cf419e-1423-4685-b9ab-1fdd53fa888b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnAngular.iws" />
@@ -141,7 +142,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.7574257" vertical-offset="0" max-vertical-offset="808">
+            <state line="25" column="1" selection-start="576" selection-end="576" vertical-scroll-proportion="0.5259901" vertical-offset="0" max-vertical-offset="808">
               <folding />
             </state>
           </provider>
@@ -721,7 +722,7 @@
       <workItem from="1389934560894" duration="5470000" />
       <workItem from="1389940137018" duration="2833000" />
       <workItem from="1389943118885" duration="344000" />
-      <workItem from="1389943512333" duration="690000" />
+      <workItem from="1389943512333" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="Some Changes">
       <created>1389871031358</created>
@@ -755,11 +756,15 @@
       <created>1389944187682</created>
       <updated>1389944187682</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Some modifications in README.md file&#10;">
+      <created>1389944222291</created>
+      <updated>1389944222291</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30945000" />
+    <option name="totallyTimeSpent" value="30995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -844,7 +849,8 @@
     <MESSAGE value="New Example&#10;&#10;Redirect AngularJS Tuts" />
     <MESSAGE value="Some Modification on Redirect Example" />
     <MESSAGE value="Some modifications in README.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some modifications in README.md file" />
+    <MESSAGE value="Some modifications in README.md file&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some modifications in README.md file&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1186,7 +1192,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.7574257" vertical-offset="0" max-vertical-offset="808">
+        <state line="25" column="1" selection-start="576" selection-end="576" vertical-scroll-proportion="0.5259901" vertical-offset="0" max-vertical-offset="808">
           <folding />
         </state>
       </provider>
