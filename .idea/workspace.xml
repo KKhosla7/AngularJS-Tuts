@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65cf419e-1423-4685-b9ab-1fdd53fa888b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnAngular.iws" />
@@ -142,7 +141,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="581" selection-end="581" vertical-scroll-proportion="0.54567903" vertical-offset="0" max-vertical-offset="810">
+            <state line="36" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.7574257" vertical-offset="0" max-vertical-offset="808">
               <folding />
             </state>
           </provider>
@@ -722,7 +721,7 @@
       <workItem from="1389934560894" duration="5470000" />
       <workItem from="1389940137018" duration="2833000" />
       <workItem from="1389943118885" duration="344000" />
-      <workItem from="1389943512333" duration="640000" />
+      <workItem from="1389943512333" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="Some Changes">
       <created>1389871031358</created>
@@ -752,11 +751,15 @@
       <created>1389942962529</created>
       <updated>1389942962529</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Some modifications in README.md file">
+      <created>1389944187682</created>
+      <updated>1389944187682</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30895000" />
+    <option name="totallyTimeSpent" value="30945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -777,6 +780,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32873562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -788,7 +792,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -840,7 +843,8 @@
     <MESSAGE value="Modifications + Additions&#10;&#10;Directives AngularJS Example now includes dealing with Attributes&#10;Example on filters&#10;Some modifications in application style.css file regarding animation behavior.&#10; &#10; Some application-main.js changes for modifications of existing functionality and introducing new functionality.&#10;" />
     <MESSAGE value="New Example&#10;&#10;Redirect AngularJS Tuts" />
     <MESSAGE value="Some Modification on Redirect Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some Modification on Redirect Example" />
+    <MESSAGE value="Some modifications in README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some modifications in README.md file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1182,7 +1186,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="581" selection-end="581" vertical-scroll-proportion="0.54567903" vertical-offset="0" max-vertical-offset="810">
+        <state line="36" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.7574257" vertical-offset="0" max-vertical-offset="808">
           <folding />
         </state>
       </provider>
