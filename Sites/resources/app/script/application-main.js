@@ -2,22 +2,20 @@
  * Created by karan.khosla on 1/16/14.
  */
 
-/* Appication Loading Context */
-
-var myDirectivesApp = angular.module("DirectivesApp", [])
-var myDirectivesBehaviorsAttributesApp = angular.module("DirectivesBehaviorsAttributesApp", [])
 var mySimpleAnimationApp = angular.module("SimpleAnimationApp", ["ngAnimate"]);
+var myRedirectApp = angular.module("RedirectApp", ["ngRoute"]);
 
-angular.module("FiltersApp", []).filter('reverse', function () { // My first Filter to reverse the incoming text.
-    return function (text) {
-        return text.split("").reverse().join("");
+myRedirectApp.config(function($routeProvider) {
+        $routeProvider.when('/', {
+                template: "<div class='text-center lead'>You're on a main Page.</div>"
+            }
+        ).when('/new', {
+                templateUrl: "RedirectToHelloWorld.html"
+            })
     }
-})
+)
 
-/* Application Loading Context Ends Here */
-
-
-myDirectivesApp.directive('pythonicway', function () {
+angular.module("DirectivesApp", []).directive('pythonicway', function () {
     return  {
         /*  restrict: can have below values
          ‘A’ – Attribute (You want to use your directive as <div rating>)
@@ -30,11 +28,10 @@ myDirectivesApp.directive('pythonicway', function () {
         link: function () {
             alert("Pythonic Way All the way. YaY!!");
         }
-
     }
 })
 
-myDirectivesBehaviorsAttributesApp.directive('pythonicway', function () {
+angular.module("DirectivesBehaviorsAttributesApp", []).directive('pythonicway', function () {
     return function(scope, element, attrs)  {
         element.bind("mouseenter", function() {
             element.addClass(attrs.pythonicway);
@@ -44,6 +41,12 @@ myDirectivesBehaviorsAttributesApp.directive('pythonicway', function () {
             element.removeClass(attrs.pythonicway);
             console.log("I'll visit again.");
         })
+    }
+})
+
+angular.module("FiltersApp", []).filter('reverse', function () { // My first Filter to reverse the incoming text.
+    return function (text) {
+        return text.split("").reverse().join("");
     }
 })
 
